@@ -2,11 +2,8 @@
   "name": "PibesDeBarrio",
   "short_name": "Pibes",
   "description": "Streetwear de barrio con compra directa por WhatsApp.",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": ".",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone", "browser"],
-  "orientation": "portrait-primary",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "icons": [
