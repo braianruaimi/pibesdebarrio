@@ -1,11 +1,10 @@
-const CACHE_NAME = "pibesdebarrio-static-v3";
+const CACHE_NAME = "pibesdebarrio-static-20260513030418";
 const CORE_ASSETS = ["./", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS)),
   );
-  self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
