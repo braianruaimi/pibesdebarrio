@@ -1,4 +1,4 @@
-const CACHE_NAME = "pibesdebarrio-static-20260513030934";
+const CACHE_NAME = "pibesdebarrio-static-20260513033914";
 const CORE_ASSETS = ["./", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
