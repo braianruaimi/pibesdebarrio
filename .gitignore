@@ -3,3 +3,11 @@
 node_modules/
 .next/
 out/
+# Env files
+.env
+
+# OS
+.DS_Store
+
+# Build artifacts
+dist/

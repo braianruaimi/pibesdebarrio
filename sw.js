@@ -1,5 +1,18 @@
 const CACHE_NAME = "pibesdebarrio-static-20260513035638";
-const CORE_ASSETS = ["./", "./manifest.webmanifest"];
+const CORE_ASSETS = [
+  "./",
+  "./index.html",
+  "./404.html",
+  "./manifest.webmanifest",
+  "./assets/css/style.css",
+  "./assets/js/app.js",
+  "./assets/images/products/llaveroori.jpg",
+  "./assets/images/products/buzoori.png",
+  "./assets/images/products/buzologooriginal.png",
+  "./assets/images/products/jarraoro.png",
+  "./assets/images/products/rememujer.jpg",
+  "./assets/images/products/remenegra.jpg"
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
